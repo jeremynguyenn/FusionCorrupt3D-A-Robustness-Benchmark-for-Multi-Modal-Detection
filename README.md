@@ -188,7 +188,7 @@ You can also manually compile the whole dataset locally using the clean nuScenes
 ### Clone this repository:
 
 ```bash
-git clone https://github.com/ika-rwth-aachen/MultiCorrupt.git
+git clone 
 cd multicorrupt
 ```
 
@@ -391,32 +391,3 @@ for their open source contribution which made this project possible.
 
 
 Please note that you should cite the original nuScenes dataset once you use MultiCorrupt.
-```
-@inproceedings{caesar2020nuscenes,
-    author = {H. Caesar and V. Bankiti and A. H. Lang and S. Vora and V. E. Liong and Q. Xu and A. Krishnan and Y. Pan and G. Baldan and O. Beijbom},
-    title = {nuScenes: A Multimodal Dataset for Autonomous Driving},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-    pages = {11621--11631},
-    year = {2020}
-}
-```
-
----
-
-| <img src="docs/Flag_of_Europe.png" width="150px"> | This work has received funding from the European Union’s Horizon Europe Research and Innovation Programme under Grant Agreement No. 101076754 - [AIthena project](https://aithena.eu/). |
-|:--------------------------------------------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-
-## Citation
-```
-@INPROCEEDINGS{10588664,
-  author={Beemelmanns, Till and Zhang, Quan and Geller, Christian and Eckstein, Lutz},
-  booktitle={2024 IEEE Intelligent Vehicles Symposium (IV)}, 
-  title={MultiCorrupt: A Multi-Modal Robustness Dataset and Benchmark of LiDAR-Camera Fusion for 3D Object Detection}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={3255-3261},
-  keywords={Training;Solid modeling;Three-dimensional displays;Laser radar;Object detection;Detectors;Benchmark testing},
-  doi={10.1109/IV55156.2024.10588664}}
-```
