@@ -2,16 +2,13 @@
 <!-- omit in toc -->
 ## Overview
 - [Corruption Types](#corruption-types)
-- [News](#news)
 - [Benchmark Results](#benchmark-results)
 - [Metrics](#metrics)
 - [Dataset Download](#dataset-download)
 - [Dataset Compilation](#dataset-compilation)
 - [Dataset Usage](#dataset-usage)
 - [TODOs](#todos)
-- [Contribution](#contribution)
 - [Acknowledgments](#acknowledgments)
-- [Citation](#citation)
 
 
 ## Corruption Types
@@ -92,19 +89,6 @@
 
 
 *Note: Right click and click on `Open Image in new tab` to enlarge an animation*
-
-## News
-- [11.04.2025] **v0.0.10** Added model [MoME](https://github.com/konyul/MoME) to benchmark
-- [13.03.2025] Our related work **OCCUQ** has been accepted to ICRA and is available on [Github](https://github.com/ika-rwth-aachen/OCCUQ)
-- [21.02.2025] [**Download Link**](https://huggingface.co/datasets/TillBeemelmanns/MultiCorrupt) is available
-- [25.10.2024] **v0.0.9** Added the two model variants of [MEFormer](https://github.com/hanchaa/MEFormer) to benchmark
-- [12.10.2024] **v0.0.8** Added the three model variants of [UniBEV](https://github.com/tudelft-iv/UniBEV) to benchmark
-- [19.07.2024] **MultiCorrupt** paper is now accessible via [IEEE Explore](https://ieeexplore.ieee.org/document/10588664), [Poster](assets/WePol3.15-Poster.pdf) uploaded
-- [12.07.2024] **v0.0.7** [IS-Fusion](https://github.com/yinjunbo/IS-Fusion) was added to the benchmark
-- [30.03.2024] **MultiCorrupt** has been accepted to [IEEE Intelligent Vehicles Symposium (IV)](https://ieee-iv.org/2024/)
-- [28.03.2024] **v0.0.3** Changed severity configuration for *Brightness*, reevaluated all models and metrics
-- [17.02.2024] **v0.0.2** Changed severity configuration for *Pointsreducing*, reevaluated all models and metrics
-- [01.02.2024] **v0.0.1** Initial Release with **10 corruption types** and **5 evaluated models**
 
 
 ## Benchmark Results
@@ -188,7 +172,7 @@ You can also manually compile the whole dataset locally using the clean nuScenes
 ### Clone this repository:
 
 ```bash
-git clone 
+git clone https://github.com/jeremynguyenn/FusionCorrupt3D-A-Robustness-Benchmark-for-Multi-Modal-Detection.git
 cd multicorrupt
 ```
 
@@ -367,15 +351,6 @@ logfile="/workspace/evaluation_log.txt"
 
 ## TODOs
 - [ ] 📝 Add visualization for results
-
-
-## Contribution
-Do you wish to add your model to the benchmark or do you want you model getting evaluated on MultiCorrupt? 
-No problem! Simply create an issue and we will try to add your model to the benchmark asap. Please provide a link 
-to the repository and the model weights and make sure to follow the issue templates here:
-
-- [add-model-to-benchmark.md](.github/ISSUE_TEMPLATE/add-model-to-benchmark.md)
-- [bug_report.md](.github/ISSUE_TEMPLATE/bug_report.md)
 
 ## Acknowledgments
 We thank the authors of
